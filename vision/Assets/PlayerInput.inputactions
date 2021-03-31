@@ -35,8 +35,19 @@
                     "isPartOfComposite": false
                 },
                 {
+                    "name": "1D Axis",
+                    "id": "ca07e546-cb40-41fa-8c9b-0aa8b7af149a",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
                     "name": "negative",
-                    "id": "bb9ab55f-3b2f-480b-9aa5-77e71cfbbd4d",
+                    "id": "78f2a238-cd13-4e05-8335-49757d4a1e74",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
@@ -47,7 +58,7 @@
                 },
                 {
                     "name": "positive",
-                    "id": "3fc0c5c8-b7cc-4844-b60d-203a078d1c7a",
+                    "id": "96bf5086-fe14-4953-9f91-b759e5e69a8d",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
@@ -58,18 +69,18 @@
                 },
                 {
                     "name": "1D Axis",
-                    "id": "58b87d21-dc0f-4afb-806d-52ff23113157",
+                    "id": "5e02b150-6fa0-421a-be2d-4f3395c789c0",
                     "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Controller",
+                    "groups": "Keyboard",
                     "action": "Move",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "negative",
-                    "id": "88c1232f-bc1a-4ca6-8e7c-5b249689a42f",
+                    "id": "acff7a4f-ffff-4d8b-a080-575d6f44dd14",
                     "path": "<Keyboard>/leftArrow",
                     "interactions": "",
                     "processors": "",
@@ -80,7 +91,7 @@
                 },
                 {
                     "name": "positive",
-                    "id": "0becc2ab-702c-4c32-bc66-be3c36c75958",
+                    "id": "048b7e32-93fe-49dd-af5f-a58e47590c60",
                     "path": "<Keyboard>/rightArrow",
                     "interactions": "",
                     "processors": "",
@@ -91,7 +102,7 @@
                 },
                 {
                     "name": "",
-                    "id": "339d198b-c782-4746-82ac-b988a7953132",
+                    "id": "655be323-64f1-440c-8d54-92a63337d2e6",
                     "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
@@ -107,12 +118,13 @@
         {
             "name": "Keyboard",
             "bindingGroup": "Keyboard",
-            "devices": []
-        },
-        {
-            "name": "Controller",
-            "bindingGroup": "Controller",
-            "devices": []
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
         }
     ]
 }
