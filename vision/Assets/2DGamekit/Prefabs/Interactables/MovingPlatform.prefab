@@ -4949,7 +4949,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: d106e46bf186edf4c8aa853d821fead7, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5071,7 +5070,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: 0.014110327, y: -0.10135397}
+  m_Offset: {x: 0.014110327, y: -0.041978776}
   m_SpriteTilingProperty:
     border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
     pivot: {x: 0.5, y: 0.5}
@@ -5082,7 +5081,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.9750218, y: 0.7506152}
+  m_Size: {x: 2.9750218, y: 0.8693656}
   m_EdgeRadius: 0
 --- !u!50 &50789012657176954
 Rigidbody2D:
