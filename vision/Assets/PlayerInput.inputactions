@@ -125,6 +125,11 @@
                     "isOR": false
                 }
             ]
+        },
+        {
+            "name": "Controller",
+            "bindingGroup": "Controller",
+            "devices": []
         }
     ]
 }
